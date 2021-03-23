@@ -1,0 +1,45 @@
+body {
+    background-color: #222;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 50px;
+}
+
+p {
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+span {
+    color: cyan;
+}
+
+.is-red {
+    background-color: tomato;
+}
+
+#bg-green {
+    background-color: mediumseagreen;
+}
+
+table {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #555';
+  }
