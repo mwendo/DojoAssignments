@@ -1,0 +1,44 @@
+.nav {
+    background-color: #333;
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:hover {
+    background: gray;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
