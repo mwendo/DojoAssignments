@@ -16,6 +16,7 @@
 .content {
     position: relative;
     left: 20px;
+    margin-bottom: 10px;
 }
 
 .bar {
@@ -28,8 +29,4 @@
 
 #landmark {
     height: 20px;
-}
-
-* {
-    margin-bottom: 10px;
 }
