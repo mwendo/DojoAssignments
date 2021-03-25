@@ -1,0 +1,35 @@
+.container {
+    border: 2px solid lightgray;
+    margin: 20px;
+}
+
+.container img {
+    height: 100px;
+}
+
+.profile-picture {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.content {
+    position: relative;
+    left: 20px;
+}
+
+.bar {
+    background-color:lightskyblue;
+}
+
+#gear {
+    height: 15px;
+}
+
+#landmark {
+    height: 20px;
+}
+
+* {
+    margin-bottom: 10px;
+}
