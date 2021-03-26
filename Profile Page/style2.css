@@ -1,0 +1,130 @@
+.container {
+    border: 2px solid lightgray;
+    margin: 20px;
+    width: 50%;
+}
+
+.container img {
+    height: 100px;
+}
+
+#profile-picture {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.content {
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color:lightskyblue;
+}
+
+#gear {
+    height: 15px;
+}
+
+#landmark {
+    height: 20px;
+}
+
+.bar1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bar1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.bar1 li {
+    margin: 5px;
+    
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+}
+
+.bar3 {
+    background-color: gray;
+}
+
+.boxx {
+    border: 2px solid darkgray;
+    width: 35%;
+}
+
+#friends {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.todd {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+} 
+
+/* .todd p {
+    align-self: center;
+} */
+
+.button {
+    border-radius: 50%;
+    color: white;
+    background-color: lightslategray;
+    border: none;
+    font-size: 1em;
+}
+
+.education {
+    border: 2px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+.education-bar {
+    background-color: lightslategray;
+    color: white;
+}
+.requests {
+    border: 2px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+.requests-bar {
+    background-color: lightslategray;
+    color: white;
+}
+.connections {
+    border: 2px solid black;
+    width: 40%;
+    height: 200px;
+}
+
+.connections-bar {
+    background-color: lightslategray;
+    color: white;
+}
+
+.BigContainer {
+    display: flex;
+}

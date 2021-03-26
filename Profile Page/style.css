@@ -1,0 +1,227 @@
+/* Navigation Bar */
+
+.bar {
+    background-color:lightskyblue;
+}
+
+.bar1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bar1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.bar1 li {
+    margin: 5px;
+    
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+}
+
+#pencil {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    box-shadow: 3px 3px black;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+/* End of navigation bar */
+
+/* Friends Images */
+.friends {
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Big container */
+.BigContainer {
+    width: 1400px;
+    height: 900px;
+    background-color: mediumspringgreen;
+    display: flex;
+    margin: 0 auto;
+}
+
+.column1 {
+    width: 900px;
+    height: 900px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.column2 {
+    width: 700px;
+    height: 900px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* User Block */
+/* .user {
+    width: 500px;
+    height: 400px;
+    background-color: turquoise;
+} */
+
+/* User Card */
+
+.profile-picture {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.content {
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: gray;
+}
+
+#gear {
+    height: 15px;
+}
+
+#landmark {
+    height: 20px;
+}
+
+.container {
+    border: 3px solid black;
+    margin: 20px;
+    width: 500px;
+}
+
+.container img {
+    height: 100px;
+}
+
+/* Education Block */
+.education {
+    width: 500px;
+    height: 300px;
+    background-color:violet;
+    font-size: 25px;
+    border: 3px solid black;
+}
+
+#education-bar {
+    display: flex;
+    background-color: gray;
+    color: black;
+}
+
+#education-bar h2 {
+    margin-left: 150px;
+}
+
+.education-content li {
+    margin: 15px;
+}
+/* Requests Block */
+.requests {
+    width: 400px;
+    height: 300px;
+    background-color: royalblue;
+    border: 3px solid black;
+}
+
+#requests-bar {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#requests-bar h2 {
+    background-color: darkgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .check {
+    margin-left: 220px;
+} */
+
+.phil {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Connections Block */
+.connections {
+    width: 400px;
+    height: 400px;
+    background-color: lime;
+    border: 3px solid black;
+}
+
+#connections-bar {
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#connections-bar h2 {
+    background-color: darkgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.friendlies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+.friendlynames {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+}
