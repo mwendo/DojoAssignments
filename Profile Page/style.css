@@ -22,7 +22,6 @@
 
 .bar1 li {
     margin: 5px;
-    
 }
 
 #left {
@@ -30,7 +29,7 @@
     align-items: center;
 }
 
-#right {
+.right {
     display: flex;
 }
 
@@ -40,10 +39,12 @@
     background-color: dodgerblue;
     color: whitesmoke;
     box-shadow: 3px 3px black;
-    padding-left: 1.0em;
+    height: 50px;
+    align-self: center;
+    /* padding-left: 1.0em;
     padding-right: 1.0em;
     padding-top: 0.4em;
-    padding-bottom: 0.4em;
+    padding-bottom: 0.4em; */
 }
 /* End of navigation bar */
 
@@ -141,7 +142,10 @@
 }
 
 #education-bar h2 {
-    margin-left: 150px;
+    position: relative;
+    left: 170px;
+    
+    /* margin-left: 150px; */
 }
 
 .education-content li {
