@@ -1,0 +1,33 @@
+body {
+    font-family:fantasy;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.cool {
+    margin-top: 10px;
+    background-color:yellow;
+    color: black;
+    box-shadow: 5px 5px black;
+    width: 90px;
+    font-family:fantasy;
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+/* #count { 
+    background-color: yellow;
+} */
