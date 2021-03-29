@@ -68,4 +68,22 @@ var pizza4 = {
 }
 pizza4.PizzaOven();
 
-randomPizza Math.random();
+
+
+var crusts_ran = ["Burnt", "Stuffed", "Deep dish", "Hand tossed"];
+var sauces_ran = ["Marina", "Sweet sauce", "Traditional"];
+var cheeses_ran = ["Mozzarella", "Feta", "no cheese"];
+var toppings_ran = ["Sausage", "Pepporoni", "Canadian Bacon"];
+
+function randomPizza() {
+    console.log("Information about this pizza:\n");
+    var rancrusts = Math.floor(Math.random() * crusts_ran.length);
+    console.log("Crust Type: " + crusts_ran[rancrusts]);
+    var ransauces = Math.floor(Math.random() * sauces_ran.length);
+    console.log("Sauce Type: " + sauces_ran[ransauces]);
+    var rancheeses = Math.floor(Math.random() * cheeses_ran.length);
+    console.log("Cheese Type: " + cheeses_ran[rancheeses]);
+    var rantoppings = Math.floor(Math.random() * toppings_ran.length);
+    console.log("Toppings Type: " + toppings_ran[rantoppings]);
+}
+randomPizza();
