@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start of nav bar */
+.top {
+    background-color:deepskyblue;
+    color: #fff;
+    height: 90px;
+    display: flex;
+}
+
+.flex-container {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+/* start of header */
+.header {
+    margin: 0 auto;
+    height: 100px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.temperature {
+    display: flex;
+    margin: 5px;
+}
+
+.temperature p {
+    margin: 10px;
+}
+
+.temperature select {
+    border: 3px solid black;
+}
+
+/* start of main */
+.main {
+    margin: 30px auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 400px;
+}
+
+.temp-range {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 140px;
+    font-size: 1.3rem;
+}
+
+.high {
+    margin: 5px;
+    color: red;
+}
+
+.low {
+    margin: 5px;
+    color:royalblue;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cookie {
+    height: 100px;
+    width: 1300px;
+    background-color: #fff;
+    border: 2px solid #777;
+    box-shadow: 5px 5px #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cookie p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    background-color:skyblue;
+    color: black;
+    box-shadow: 5px 5px black;
+    width: 150px;
+    height: 50px;
+    font-family:fantasy;
+    font-size: 20px;
+    border: 3px solid black;
+    margin-right: 10px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="flex-container">
+            <h1 class="title">DojoWeather</h1>
+            <div class="nav">
+               <h3 onclick="alert('tornado incoming')">Burbank</h3>
+               <h3 onclick="alert('rioting')">Chicago</h3>
+               <h3 onclick="alert('pipes freezing & bursting')">Dallas</h3>
+            </div>
+        </div>
+    </div>
+
+        <div class="header">
+            <h1>San Jose</h1>
+            <div class="temperature">
+                <p>show temperature in</p>
+                <select>
+                    <option>C &#176</option>
+                    <option>F &#176</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="days">
+                <h2>Today</h2>
+                <img src="./images/images/some_rain.png" alt="rain">
+                <div class="temp-range">
+                    <p>some rain</p>
+                    <h3><span class="high">23.9&#176</span><span class="low">18.3&#176</span></h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Tomorrow</h2>
+                <img src="./images/images/some_sun.png" alt="sun">
+                <div class="temp-range">
+                    <p>some sun</p>
+                    <h3><span class="high">26.7&#176</span><span class="low">18.9&#176</span></h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Friday</h2>
+                <img src="./images/images/some_clouds.png" alt="some clouds">
+                <div class="temp-range">
+                    <p>some clouds</p>
+                    <h3><span class="high">20.6&#176</span><span class="low">16.1&#176</span></h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Saturday</h2>
+                <img src="./images/images/some_sun.png" alt="some sun">
+                <div class="temp-range">
+                    <p>some rain</p>
+                    <h3><span class="high">23.9&#176</span><span class="low">18.3&#176</span></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div id="cookie">
+                <img src="./images/images/cookie.png" alt="cookie">
+                <p><strong>Stop! Cookie time</strong><br>
+                We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                <button class="btn" onclick="disappear()">I accept</button>
+            </div>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

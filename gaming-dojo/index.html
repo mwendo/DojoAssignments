@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top">
+
+        <div class="flex-container">
+            <h1 class="title">Gaming<span class="is-purple">Dojo</span></h1>
+            <div class="nav">
+                <select>
+                    <option>Euro €</option>
+                    <option>USD $</option>
+                    <option>Doge Ɖ</option>
+                </select>
+                <img src="assets/cart-light.png" alt="cart">
+                <span id="cart-quantity">0</span>
+                <img src="assets/search-light.png" alt="search">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <h3>Highlights</h3>
+
+        <div class="carousel">
+            <img src="assets/chevron-left.png" alt="left arrow" onclick="switchImg('pixel-ninjas-2.png')">
+            <img src="assets/stonepunk.png" alt="stonepunk 10000 bce" id="main-img">
+            <img src="assets/chevron-left.png" alt="left arrow" class="mirror" onclick="switchImg('stonepunk.png')">
+        </div>
+
+        <div class="pages">
+            <div class="page"></div>
+            <div class="page is-purple"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+        </div>
+
+        <div class="flex-container">
+
+            <div class="game">
+                <img src="assets/cafe-neko.png" alt="cafe-neko" class="game-img">
+                <div class="game-inner">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <div class="os">
+                        <img src="assets/windows.png" alt="Windows" class="icon">
+                        <img src="assets/apple.png" alt="MacOS" class="icon">
+                    </div>
+                    <div class="prices">
+                        <div class="discount">-20%</div>
+                        <div class="value">
+                            <p class="old">€14.98</p>
+                            <h4 class="current">€10.49</h4>
+                        </div>
+                        <button class="btn" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game">
+                <img src="assets/pixel-ninjas-2.png" alt="pixel-ninjas-2" class="game-img">
+                <div class="game-inner">
+                    <h3>Pixel Ninjas 2</h3>
+                    <div class="os">
+                        <img src="assets/windows.png" alt="Windows" class="icon">
+                        <img src="assets/apple.png" alt="MacOS" class="icon">
+                    </div>
+                    <div class="prices">
+                        <div class="discount">-10%</div>
+                        <div class="value">
+                            <p class="old">€8.19</p>
+                            <h4 class="current">€7.39</h4>
+                        </div>
+                        <button class="btn" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game">
+                <img src="assets/stonepunk.png" alt="stonepunk 1000 bce" class="game-img">
+                <div class="game-inner">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="os">
+                        <img src="assets/windows.png" alt="Windows" class="icon">
+                        <img src="assets/apple.png" alt="MacOS" class="icon">
+                        <img src="assets/linux.png" alt="Linux" class="icon" onclick="linuxSupport()">
+                    </div>
+                    <div class="prices">
+                        <div class="discount">NEW</div>
+                        <div class="value">
+                            <h4 class="current">€19.99</h4>
+                        </div>
+                        <button class="btn" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="cookies">
+        <p><strong>Hey! Look! Listen!</strong><br>
+        It's dangerous to go alone, take cookies!
+        <a href="#">cookie policy</a>
+        </p>
+        <button class="btn" onclick="gameStart()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
