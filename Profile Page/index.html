@@ -36,11 +36,11 @@
                 <img src="./images/Profilepicture.jpg" alt="profile pic" class="profile-picture">
             </div>
             <div class="content">
-                <h1>Micah Wendorf</h1>
+                <h1 id="name">Micah Wendorf</h1>
                 <p><img src="./images/landmark.png" alt="land mark" id="landmark"> Chicago</p>
                 <p>Developer | Engineer | Problem Solver</p>
                 <p>Master of shadows and the Internet!</p>
-                <img src="./images/gear.png" alt="settings" id="gear"><a href="#"> edit profile</a>
+                <img src="./images/gear.png" alt="settings" id="gear"><a href="#" onclick="changeName()"> edit profile</a>
             </div>
         </div>   
         <div class="education">
@@ -62,22 +62,22 @@
                 <h2>2</h2>
                 <h1>Connection Requests</h1> <!-- later on make 4 divs with the pictures, names, checkmarks, and x;s to get them to align perfectly --> 
             </div>
-            <div class="todd">
+            <div class="todd" id="mainFrameOne">
                 <div class="blue">
                     <img src="./friendimages/todd-s.jpg" alt="todd" class="friends">
                     <span>Todd E</span>
                 </div>
-                <div class="button-1">
+                <div class="button-1" onclick="myFunction1()">
                     <button class="check">&#10004</button>
                     <button>X</button>    
                 </div>
             </div>
-            <div class="phil">
+            <div class="phil" id="mainFrameTwo">
                 <div class="purple">
                     <img src="./friendimages/phil-s.jpg" alt="phil" class="friends"> 
                     <span>Phil K</span>
                 </div>
-                <div class="red">
+                <div class="red" onclick="myFunction2()">
                     <button class="check">&#10004</button>
                     <button>X</button>
                 </div>
@@ -102,6 +102,7 @@
                     <h4>Alayne T</h4>
                     <h4>Arry Y</h4>
                 </div>
+                <script src="main.js"></script>
             </div>
 
             <!-- <div class="adrien">
